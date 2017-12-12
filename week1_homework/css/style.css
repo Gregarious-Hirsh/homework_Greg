@@ -1,0 +1,94 @@
+html { 
+  background: url(https://i.imgur.com/yLKu6jB.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+.prof-box {
+	width: 600px;
+	/*height: 650px;*/
+	background:	rgba(0,0,0,0.67);
+	padding: 40px;
+	color:	white;
+	margin: 0 auto;
+	margin-top: 140px;
+	border: 1px solid #ffffff7d;
+	text-align:	center;
+	box-shadow: 0px 10px 38px 1px black;
+}
+.prof-pic {
+	border-radius: 50%;
+	height: 250px; 
+	width:	250px;
+}
+h1 {
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size:	40px;
+}
+p {
+	font-weight: 200;
+	letter-spacing: 1;
+	text-align: justify;
+}
+
+.container-links i{
+	font-size: 2em;
+}
+
+.container-links .fa-beer{
+	color: #ffc000;
+}
+.container-links .fa-meetup {
+    color: red;
+}
+.container-links .fa-linkedin-square {
+    color: #1fd20d;
+}
+.container-links .fa-facebook-square {
+    color: #1c05a7;
+}
+
+.about-section h1 {
+    font-size: 25px;
+}
+
+.about-section {
+    margin-top: 10px;
+    border-top: 1px solid white;
+}
+
+.job-history {border-top: 1px solid white;}
+
+.job-history h1{font-size: 25px;}
+
+.job-history ul {padding-left: 0;list-style: none;}
+
+.job-history ul li {text-align: left;border-bottom: 1px solid #ffffff3b;}
+
+.job-history ul h3 {font-size: 13px;margin-bottom: 0;float: none;}
+
+.job-history ul h3 span{font-size: 14px;font-weight: 300;margin-right: 10px;/* float: left; */}
+
+.job-history ul h3 div{width: inherit;float: right;}
+
+.job-history ul h4{margin-top: 0;margin-bottom: 0;font-size: 14px;font-weight: 300;font-style: italic;}
+
+.job-history ul h5{margin-top: 0;font-size: 14px;font-weight: 400;}
+
+.name-title h5 {
+    font-weight: 400;
+}
+
+.contact-form {margin-bottom: 20px;}
+
+.contact-form form{
+	
+}
+
+.contact-form .name {margin: 10px;padding: 5px 10px;}
+.contact-form .email {padding: 5px 10px;margin: 10px;}
+.contact-form .message {width: 53%;min-height: 90px;}
+.contact-form .button {background: #437343;border: 1px solid #37a537;border-radius: 0px;padding: 5px 10px;color: white;margin-top: 10px;font-size: 16px;}
