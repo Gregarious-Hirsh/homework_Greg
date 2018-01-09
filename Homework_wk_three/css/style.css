@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: tahoma;
+    font-weight: 100px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.imgur.com/ov6Oa7W.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #e67e22;
+}
+
+.row {
+    max-height: 1140px;
+    margin: 0 auto;
+}
+
+.nav1 {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.nav1 li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav1 li a {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.logo1 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.logo1 img {
+    height: 100px;
+    border-radius: 50%;
+}
+.copy {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.arranging {
+    text-align: justify;
+}
+
+h3:after {
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.features h3 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.features h4 {
+    margin-left: 40px;
+}
+
+.features i {
+    font-size: 40px;
+    color: #e67e22;
+    margin-left: 35%;
+}
+
+.nav1 li a:hover {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.2s ease-in;
+    padding: 10px 0;
+}
+
+.meal-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li {
+    display: block: width: 100%;
+    float: left;
+}
+
+.bbq-photo {
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bbq-photo img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 400px;
+    transform: scale(1.15);
+    transition: all 0.2s;
+}
+.bbq-photo img:hover {
+    transform: scale(1.05);
+}
+
+.meal {
+    margin-top: 60px;
+}
+
+.pic {
+    width: 100%;
+    max-width: 10px;
+    max-height: 25px;
+    margin top: 50px;
+    float: left;
+}
+
+.works-step {
+    margin-top: 50px;
+}
