@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Wars Questionnaire</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS Link -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="header-container">
+                    <h1>Star Wars Trick Question</h1>
+                    <div id="results">
+                        <h2>You Score: Not Yet Attempted</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <form name="quiz" onsubmit="return onSubmit()">
+                    <div class="question">
+                        <h5>Which of the following are planets from Star Wars Episode V: The Empire Strikes Back?</h5>
+                        <input type="checkbox" name="q1cb1" value="a">a. Tattoine
+                        <br>
+                        <input type="checkbox" name="q1cb2" value="b">b. Hoth
+                        <br>
+                        <input type="checkbox" name="q1cb3" value="c">c. Endor
+                        <br>
+                        <input type="checkbox" name="q1cb4" value="d">d. Bespin
+                        <br>
+                        <input type="checkbox" name="q1cb5" value="e">e. Degobah
+                        <br>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Submit Answer</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>

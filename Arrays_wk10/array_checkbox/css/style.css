@@ -1,0 +1,33 @@
+
+.header-container{
+	text-align: center;
+	color: yellow;
+	padding: 1 0 1 0;
+	background-image: linear-gradient(#f1cc8c, #d08d34, #b88117);
+	border-radius: 20px;
+}
+.body{
+	text-align: center;
+	border-style: solid;
+	border: 3 3 3 3;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+.container{
+	text-align: center;
+	border-style: solid;
+	border: 3 3 3 3;
+	margin: 10px 15% 10px 15%;
+	border-radius: 20px;
+	background-color: #eee;
+	padding-bottom: 10px;
+}
+h5{
+	text-align: left;
+	font-size: 30px;
+	font-weight: 20px;
+}
+button{
+	margin-top: 10px;
+	color: red;
+}
